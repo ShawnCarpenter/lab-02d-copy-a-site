@@ -34,7 +34,7 @@ main header {
     background-color: black;
 }
 .main-area {
-    /* max-width: 75%; */
+    width: 75%;
     gap: 5px;
     display:grid;
     grid-template-areas:
@@ -43,8 +43,8 @@ main header {
 }
 figure {
     border-radius: 10px; 
-    /* border:3px solid whitesmoke; */
     padding:0px;
+    width: auto;
 }
 
 figcaption {
@@ -59,15 +59,19 @@ img {
 
 .big-picture {
     grid-area: big-picture;
+    /* width: 50%; */
 }
 .small-picture-left {
     grid-area: small-picture-left;
+    /* width: 25%; */
 }
 .small-picture-right {
     grid-area: small-picture-right;
+    /* width: 25%; */
 }
 .bottom-right {
     grid-area: bottom-right;
+    /* width: 50%; */
 }
 
 .red {
@@ -88,4 +92,10 @@ img {
     max-height: 2em;
     padding: 5px;
     margin-top: 5px;
+}
+.wide-picture {
+    width:auto;
+}
+.small-picture {
+    width: auto;
 }
